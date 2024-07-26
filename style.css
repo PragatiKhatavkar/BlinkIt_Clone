@@ -5,30 +5,31 @@ nav{
 
 .vertical_line{
     border: 1px solid #f2f2f2;
-    height: 60px;
+    height: 80px;
 }
 
 .nav_section_2>h5{
     font-weight: 700;
+    margin: 0px;
 }
 
 .nav_section_2>p{
-    font-size: 10px;
+    font-size: 14px;
     margin: 0px !important;
 }
 
 .nav_section_3{
     padding-inline: 10px;
     background-color: #f8f8f8;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #f2f2f2;
 }
 
 .nav_section_3>input{
     background-color: transparent;
     border: none;
-    width: 40vw;
-    height: 40px;
+    width: 30vw;
+    height: 45px;
 }
 
 
@@ -59,10 +60,6 @@ nav{
     margin-inline: 8px;
     border-radius: 10px !important;
     display: inline-block !important;
-}
-
-.my-card>img{
-    margin: auto;
 }
 
 .time{
@@ -97,7 +94,7 @@ nav{
 
 .footer_1{
     flex: 1;
-    /* font-size: 14px; */
+    font-size: 13px;
 }
 
 .footer_2{
@@ -131,10 +128,16 @@ nav{
 table{
     width: 100%;
     color: #666666;
+    font-size: 14px;
+}
+
+td{
+    padding: 3px;
 }
 
 td:hover{
+    text-shadow: 2px 2px 8px #666666;
     text-decoration: underline;
     cursor: pointer;
-    color: blue;
+    color: black;
 }
